@@ -1,0 +1,44 @@
+{
+  "model": "google/muril-base-cased",
+  "revision": "afd9f36c7923d54e97903922ff1b260d091d202f",
+  "seed": 2026,
+  "pilot": false,
+  "best_epoch": 5,
+  "val_macro_f1": 0.6445299973230229,
+  "history": [
+    {
+      "epoch": 1,
+      "val_macro_f1": 0.5588355195319057,
+      "last_train_loss": 1.0262974500656128,
+      "lr": 1.777221526908636e-05
+    },
+    {
+      "epoch": 2,
+      "val_macro_f1": 0.6269551695597412,
+      "last_train_loss": 1.1056082248687744,
+      "lr": 1.332916145181477e-05
+    },
+    {
+      "epoch": 3,
+      "val_macro_f1": 0.6369467819303081,
+      "last_train_loss": 1.9071568250656128,
+      "lr": 8.88610763454318e-06
+    },
+    {
+      "epoch": 4,
+      "val_macro_f1": 0.643417917642533,
+      "last_train_loss": 0.7113909125328064,
+      "lr": 4.44305381727159e-06
+    },
+    {
+      "epoch": 5,
+      "val_macro_f1": 0.6445299973230229,
+      "last_train_loss": 0.2476109117269516,
+      "lr": 0.0
+    }
+  ],
+  "train_rows": 11335,
+  "device": "cuda",
+  "peak_gpu_mem_mb": 4800,
+  "seconds": 291
+}

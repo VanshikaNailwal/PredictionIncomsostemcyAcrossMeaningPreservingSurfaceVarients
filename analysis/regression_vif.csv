@@ -1,0 +1,44 @@
+fit,term,VIF
+a_typos,"C(model, Treatment('bert-base-multilingual-cased'))[T.google/muril-base-cased]",1.5204605757491458
+a_typos,"C(model, Treatment('bert-base-multilingual-cased'))[T.xlm-roberta-base]",1.6577401042243036
+a_typos,delta_fertility,1.5609708851225497
+a_typos,char_edit_dist_ci,18.7146502119563
+a_typos,n_changed_words,18.499725493663135
+a_typos,n_words_A,1.6049354730083043
+a_typos,unk_rate,1.2410303271743164
+a_typos,margin_A,1.009965129603474
+a_typos,complete_tweet,1.3770009092520703
+b_typos_case_emoji,"C(model, Treatment('bert-base-multilingual-cased'))[T.google/muril-base-cased]",1.4663229343925395
+b_typos_case_emoji,"C(model, Treatment('bert-base-multilingual-cased'))[T.xlm-roberta-base]",1.6384033030367218
+b_typos_case_emoji,delta_fertility,1.084611592302746
+b_typos_case_emoji,char_edit_dist_ci,1.4137598152765025
+b_typos_case_emoji,n_changed_words,1.483830500183142
+b_typos_case_emoji,n_words_A,1.4736137239616756
+b_typos_case_emoji,unk_rate,1.233947842677213
+b_typos_case_emoji,margin_A,1.0085191296176288
+b_typos_case_emoji,complete_tweet,1.3714722816214326
+c_D_only,"C(model, Treatment('bert-base-multilingual-cased'))[T.google/muril-base-cased]",2.3164729813476073
+c_D_only,"C(model, Treatment('bert-base-multilingual-cased'))[T.xlm-roberta-base]",2.030739648800225
+c_D_only,delta_fertility,1.8538494201788638
+c_D_only,char_edit_dist_ci,6.671801820795431
+c_D_only,n_changed_words,17.175628474469942
+c_D_only,n_words_A,12.890074396926632
+c_D_only,unk_rate,1.3301554857336788
+c_D_only,margin_A,1.030135355402201
+c_D_only,complete_tweet,1.4190684847255344
+a_typos_without_char_edit_dist_ci,"C(model, Treatment('bert-base-multilingual-cased'))[T.google/muril-base-cased]",1.519601940949582
+a_typos_without_char_edit_dist_ci,"C(model, Treatment('bert-base-multilingual-cased'))[T.xlm-roberta-base]",1.6576498795644288
+a_typos_without_char_edit_dist_ci,delta_fertility,1.5402591071561673
+a_typos_without_char_edit_dist_ci,n_changed_words,1.6779130580992392
+a_typos_without_char_edit_dist_ci,n_words_A,1.6008632601640689
+a_typos_without_char_edit_dist_ci,unk_rate,1.2409689033068194
+a_typos_without_char_edit_dist_ci,margin_A,1.0098734082273295
+a_typos_without_char_edit_dist_ci,complete_tweet,1.3724604200539534
+c_D_only_without_n_changed_words,"C(model, Treatment('bert-base-multilingual-cased'))[T.google/muril-base-cased]",2.236120872669495
+c_D_only_without_n_changed_words,"C(model, Treatment('bert-base-multilingual-cased'))[T.xlm-roberta-base]",1.9555295981621528
+c_D_only_without_n_changed_words,delta_fertility,1.743733452487792
+c_D_only_without_n_changed_words,char_edit_dist_ci,4.869558909564398
+c_D_only_without_n_changed_words,n_words_A,5.065886785460922
+c_D_only_without_n_changed_words,unk_rate,1.2482330620051894
+c_D_only_without_n_changed_words,margin_A,1.029441266468231
+c_D_only_without_n_changed_words,complete_tweet,1.4005385889985227

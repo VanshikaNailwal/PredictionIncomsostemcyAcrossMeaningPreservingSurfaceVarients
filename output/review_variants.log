@@ -1,0 +1,105 @@
+wrote review_variants.xlsx
+rows per sheet (excluding header):
+   Review         1000  OK
+   D_wordcheck     200  OK
+   D_longtail      150  OK
+   NEG_control     352  OK
+   Rater_sample     60  OK
+   Key              60  OK
+   Summary        23 lines (tables)
+   Key sheet hidden: True
+   sounds_natural_1/_2 dropdown cells: 30 (2 x 15 two-version rows)
+   Rater_sample headers reveal nothing about NEG: ['item', 'id', 'Version 1', 'Version 2', 'Version 3', 'Version 4', 'meaning_same', 'rater_sentiment_v1', 'rater_sentiment_v2', 'rater_sentiment_v3', 'rater_sentiment_v4', 'sounds_natural_1', 'sounds_natural_2']
+   Rater_sample: 45 A/D/T3/UC items {'negative': 15, 'neutral': 15, 'positive': 15}, 15 NEG pairs {'negative': 5, 'neutral': 5, 'positive': 5}, ids overlapping: 0
+empty cells in A and variant columns: {'A': 0, 'T1': 0, 'T2': 0, 'T3': 0, 'LC': 0, 'NE': 0, 'UC': 0, 'D': 0}
+longest cell: 144 characters (Excel limit 32767)
+round trip: 15557 text cells re-read, 0 differ; 1426 contain Devanagari, 1527 contain emojis
+summary values (computed in Python; the sheet uses live formulas where noted):
+   nested T1 ⊂ T2 ⊂ T3: PASS; zero-edit sentences: T1 298, T2 51, T3 13
+   A   mean_changed   0.00  mean_edit_dist   0.00  pct_editable     n/a  identical_to_A 1000
+   T1  mean_changed   1.21  mean_edit_dist   1.45  pct_editable   9.93%  identical_to_A 298
+   T2  mean_changed   3.04  mean_edit_dist   3.64  pct_editable  25.04%  identical_to_A 51
+   T3  mean_changed   4.81  mean_edit_dist   5.74  pct_editable  39.60%  identical_to_A 13
+   LC  mean_changed   3.71  mean_edit_dist   5.40  pct_editable     n/a  identical_to_A 70
+   NE  mean_changed   0.30  mean_edit_dist   0.85  pct_editable     n/a  identical_to_A 804
+   UC  mean_changed   2.89  mean_edit_dist  13.08  pct_editable  24.58%  identical_to_A 75
+   D   mean_changed  16.61  mean_edit_dist  70.04  pct_editable     n/a  identical_to_A 0
+D_longtail: 150 words (frozen in d_longtail_sample.tsv; 14 are now in the dictionary), 289 tokens; tags {'Hin': 99, 'Eng': 51}
+D_longtail outputs match variant D: 0 mismatching tokens
+10 sentences with the most long-tail (non-dictionary) words, A next to D:
+  id 29769: 16 long-tail words
+    A  Modi Gaddar . .2 Amit Shah .. katil protection Imriti bazi .... Randdi Lao Piyush Gabar .. Rail bech de Nirmala tatti .. loot le Desh
+    D  मोदी गद्दार . .2 अमित शाह .. कातिल प्रोटेक्शन इमरीति बाजी .... रांद्दी लाओ पीयूष गबर .. रेल बेच दे निर्मला टट्टी .. लूट ले देश
+  id 637: 16 long-tail words
+    A  Bannu Thana Domel Ki Hudood Chashmai Me Police Muqabla Police Ehlkar K Qatal Samet 6 Muqadmat Me Matloob Moeen Ullah Mara Gia .
+    D  बन्नू थाना डोमेल की हुदूद चश्मै में पुलिस मुकाबला पुलिस एहलकार के क़तल समेत 6 मुक़दमत में मतलूब मोईन उल्लाह मारा गया .
+  id 9586: 16 long-tail words
+    A  RT Guttar k dhakuno key choree say shru kiya hua business is Arz a Pak ko lootnay tuk pohncha . Kitnay banks fail huay log medici …
+    D  आरटी गुट्टर के ढकुनो के चोरी से श्रू किया हुआ बिजनेस इस अर्ज आ पाक को लूटने तुक पोहंचा . कितने बैंक्स फैल हुआय लॉग मेडिसी …
+  id 13111: 15 long-tail words
+    A  RT Holding ur tongue so exhausting !!! Feeling like YOU NEVER SAY THE RIGHT SHIT ever to ANYONEE AHHHH I DONT GIVE A FUCK ARREST ME I …
+    D  आरटी होल्डिंग योर टोंग सो एक्सहॉस्टिंग !!! फीलिंग लाइक यू नेवर से थे राइट शित एवर टू अन्योनी अह्ह्ह आई डोंट गिव आ फक अरेस्ट में आई …
+  id 21849: 15 long-tail words
+    A  RT Superb ! Akala ko kikiligin lang ako pero mas madami ata iyaaak ko with tulo sipon pa I really love this movie ang dami k …
+    D  आरटी सुपर्ब ! अकाला को किकिलिगिन लांग अको पेरो मास मदमी आता इयाक को विद तुलो सिपों पा आई रियली लव दिस मूवी अंग दामी के …
+  id 39307: 15 long-tail words
+    A  Abe jaa be jesus ki gan d chaat randi ki aulaad warna teri maa ko naga kark chod dunga bsdk madhr cho …
+    D  अबे जा बे जेसस की गन डी चाट रंडी की औलाद वरना तेरी माँ को नागा कर्क छोड़ दूंगा बीएसडीके मधर चो …
+  id 6772: 15 long-tail words
+    A  RT papa ne poor student k liya har thraa ki facility ki h jis se w bi aaj smajh m upper uth ske papa is world ko apki puri …
+    D  आरटी पापा ने पूर स्टूडेंट के लिया हर थ्रा की फैसिलिटी की है जिस से व भी आज समझ में अपर उठ स्के पापा इज़ वर्ल्ड को आपकी पूरी …
+  id 16091: 14 long-tail words
+    A  MAGANDANG MORNING SA LAHAT TWITTER WORLD .... TO MY #GIANSSY HEART GOD BLESS YOU BOTH sml tysm muah muah muah ....
+    D  मगनडांग मॉर्निंग सा लाहट ट्विटर वर्ल्ड .... तो माय #GIANSSY हार्ट गोद ब्लेस यू बोथ एसएम टाइस्म मुआह मुआह मुआह ....
+  id 17024: 14 long-tail words
+    A  Team selection taik nahi Captain bhi 2 takke ka nahi players saare relo katte hafez imad shadab geniune batsman aur …
+    D  टीम सिलेक्शन टैक नहीं कैप्टन भी 2 टक्के का नहीं प्लेयर्स सारे रेलो कट्टे हाफेज इमाद शादाब जीनियून बैट्समैन और …
+  id 1817: 14 long-tail words
+    A  Pak ko wc se 6hoti ki darkhast krni chye q k Pakistani awam m et . i himat ni ke enke lyeee due hi krtiii rhe khlnaaa ata ni enko 👃👃👃👃
+    D  पाक को डब्ल्यूसी से 6होती की दरखास्त करनी च्ये क्यों के पाकिस्तानी अवाम म ईटी . आई हिमत नहीं के एनके ली ड्यू ही कृती रहे खलना आता नहीं इंको 👃👃👃👃
+5 example rows from Review:
+  id 37321 (negative, hin_share 0.7143, complete yes, T1/T2/T3 changed 1/2/3)
+    A   Iske baad bhi some gandiwadi people be like main fir bhi Gandi ko chahunga 😪.
+    T1  Iske baad bji some gandiwadi people be like main fir bhi Gandi ko chahunga 😪.
+    T2  Jske baad bji some gandiwadi people be like main fir bhi Gandi ko chahunga 😪.
+    T3  Jske bad bji some gandiwadi people be like main fir bhi Gandi ko chahunga 😪.
+    LC  iske baad bhi some gandiwadi people be like main fir bhi gandi ko chahunga 😪.
+    NE  Iske baad bhi some gandiwadi people be like main fir bhi Gandi ko chahunga .
+    UC  ISKE baad bhi some gandiwadi PEOPLE be like MAIN fir bhi GANDI ko chahunga 😪.
+    D   इसके बाद भी सोम गांदीवादी पीपल बी लाइक मैं फिर भी गंदी को चाहूंगा 😪.
+  id 16867 (negative, hin_share 0.9444, complete no, T1/T2/T3 changed 3/5/7)
+    A   YE . SUAR KA . BACHAA . LANGDAA . CHOTALA . KHUD . TO . BHOT BADDA . CHOR . HAI . JAIL ME . SADD . MARR . RAHA . HAI .…
+    T1  YE . SUAR KA . BACHAA . LANGDAA . CHOTALA . KHUD . TO . BHOOT ADDA . CHOR . HAI . JAIL ME . SADD . MARRR . RAHA . HAI .…
+    T2  YE . SUAR KA . BACHAA . LANGDAA . CHOTALA . KHUD . TO . BHOOT ADDA . CHR . HAI . JAIL ME . SADD . MARRR . RAAH . HAI .…
+    T3  YE . SUAR KA . BACHAA . LANGDAA . CMOTALA . KHUUD . TO . BHOOT ADDA . CHR . HAI . JAIL ME . SADD . MARRR . RAAH . HAI .…
+    LC  ye . suar ka . bachaa . langdaa . chotala . khud . to . bhot badda . chor . hai . jail me . sadd . marr . raha . hai .…
+    NE  YE . SUAR KA . BACHAA . LANGDAA . CHOTALA . KHUD . TO . BHOT BADDA . CHOR . HAI . JAIL ME . SADD . MARR . RAHA . HAI .…
+    UC  YE . SUAR KA . BACHAA . LANGDAA . CHOTALA . KHUD . TO . BHOT BADDA . CHOR . HAI . JAIL ME . SADD . MARR . RAHA . HAI .…
+    D   ये . सुआर का . बचा . लंगड़ा . चोटाला . खुद . तो . भोट बड्डा . चोर . है . जेल में . सद्द . मार . रहा . है .…
+  id 39016 (neutral, hin_share 0.4706, complete no, T1/T2/T3 changed 1/1/2)
+    A   Yes dear .. Har field mai research work ho Poori dunya research par zor day rahi hay N …
+    T1  Yes dera .. Har field mai research work ho Poori dunya research par zor day rahi hay N …
+    T2  Yes dera .. Har field mai research work ho Poori dunya research par zor day rahi hay N …
+    T3  Yes dera .. Har field mai research work ho Poori dnuya research par zor day rahi hay N …
+    LC  yes dear .. har field mai research work ho poori dunya research par zor day rahi hay n …
+    NE  Yes dear .. Har field mai research work ho Poori dunya research par zor day rahi hay N …
+    UC  Yes dear .. Har field MAI research work ho POORI dunya research PAR zor day rahi hay N …
+    D   येस डियर .. हर फील्ड मैं रिसर्च वर्क हो पूरी दुन्या रिसर्च पर ज़ोर डे रही है एन …
+  id 40625 (negative, hin_share 0.8571, complete yes, T1/T2/T3 changed 0/0/0)
+    A   RT Tusi Great ho Laanat Qabool kro
+    T1  RT Tusi Great ho Laanat Qabool kro
+    T2  RT Tusi Great ho Laanat Qabool kro
+    T3  RT Tusi Great ho Laanat Qabool kro
+    LC  rt tusi great ho laanat qabool kro
+    NE  RT Tusi Great ho Laanat Qabool kro
+    UC  RT Tusi Great ho Laanat Qabool kro
+    D   आरटी तुसी ग्रेट हो लानत कबूल करो
+  id 31775 (negative, hin_share 0.2857, complete yes, T1/T2/T3 changed 0/2/5)
+    A   RT Actually 6 flop movies since 2015 kat has so that means she is a panauti
+    T1  RT Actually 6 flop movies since 2015 kat has so that means she is a panauti
+    T2  RT Actually 6 flop movies sinc 2015 kat has so that means sbe is a panauti
+    T3  RT Actually 6 flp movies sinc 2015 kat has so that mans sbe is a panauit
+    LC  rt actually 6 flop movies since 2015 kat has so that means she is a panauti
+    NE  RT Actually 6 flop movies since 2015 kat has so that means she is a panauti
+    UC  RT Actually 6 flop movies since 2015 KAT has so that means she is a panauti
+    D   आरटी एक्चुअली 6 फ्लॉप मूवीज सिंस 2015 कट हैज़ सो दैट मीन्स शी इज़ आ पनौती

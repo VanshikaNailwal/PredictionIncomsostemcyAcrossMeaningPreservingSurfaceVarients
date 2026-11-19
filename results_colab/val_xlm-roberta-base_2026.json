@@ -1,0 +1,44 @@
+{
+  "model": "xlm-roberta-base",
+  "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+  "seed": 2026,
+  "pilot": false,
+  "best_epoch": 5,
+  "val_macro_f1": 0.6512931349395563,
+  "history": [
+    {
+      "epoch": 1,
+      "val_macro_f1": 0.5833577070151803,
+      "last_train_loss": 1.0412946939468384,
+      "lr": 1.777221526908636e-05
+    },
+    {
+      "epoch": 2,
+      "val_macro_f1": 0.6433849995958981,
+      "last_train_loss": 0.991943359375,
+      "lr": 1.332916145181477e-05
+    },
+    {
+      "epoch": 3,
+      "val_macro_f1": 0.6476873652530065,
+      "last_train_loss": 2.0940988063812256,
+      "lr": 8.88610763454318e-06
+    },
+    {
+      "epoch": 4,
+      "val_macro_f1": 0.6440519061869258,
+      "last_train_loss": 0.6798619031906128,
+      "lr": 4.44305381727159e-06
+    },
+    {
+      "epoch": 5,
+      "val_macro_f1": 0.6512931349395563,
+      "last_train_loss": 0.3396955132484436,
+      "lr": 0.0
+    }
+  ],
+  "train_rows": 11335,
+  "device": "cuda",
+  "peak_gpu_mem_mb": 5595,
+  "seconds": 315
+}

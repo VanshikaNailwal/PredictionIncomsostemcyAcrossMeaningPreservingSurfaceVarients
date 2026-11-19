@@ -1,0 +1,10 @@
+model,seed,status,seconds,val_macro_f1,best_epoch,peak_gpu_mem_mb
+bert-base-multilingual-cased,13,ok,267,0.6287790699728758,5,3926
+bert-base-multilingual-cased,42,ok,265,0.6341366600020176,3,3925
+bert-base-multilingual-cased,2026,ok,216,0.62931389302167,2,3910
+xlm-roberta-base,13,ok,326,0.6532474561706475,5,5595
+xlm-roberta-base,42,ok,325,0.6162745729464891,5,5599
+xlm-roberta-base,2026,ok,326,0.6512931349395563,5,5595
+google/muril-base-cased,13,ok,320,0.6457170320018812,5,4797
+google/muril-base-cased,42,ok,303,0.6328001308693927,3,4805
+google/muril-base-cased,2026,ok,302,0.6445299973230229,5,4800

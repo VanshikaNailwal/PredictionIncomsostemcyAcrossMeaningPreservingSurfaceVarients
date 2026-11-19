@@ -1,0 +1,51 @@
+=== id 37321 ===
+
+[A] Iske baad bhi some gandiwadi people be like main fir bhi Gandi ko chahunga 😪.
+  bert-base-multilingual-cased (26): ['Is', '##ke', 'ba', '##ad', 'b', '##hi', 'some', 'gan', '##di', '##wad', '##i', 'people', 'be', 'like', 'main', 'fir', 'b', '##hi', 'Gand', '##i', 'ko', 'cha', '##hung', '##a', '[UNK]', '.']
+  xlm-roberta-base (22): ['▁I', 'ske', '▁baad', '▁bhi', '▁some', '▁gand', 'iwa', 'di', '▁people', '▁be', '▁like', '▁main', '▁fir', '▁bhi', '▁Gand', 'i', '▁ko', '▁cha', 'hunga', '▁', '😪', '.']
+  google/muril-base-cased (21): ['Is', '##ke', 'baad', 'bhi', 'some', 'gand', '##i', '##wadi', 'people', 'be', 'like', 'main', 'fir', 'bhi', 'Ga', '##ndi', 'ko', 'chah', '##unga', '[UNK]', '.']
+
+[T3] Jske bad bji some gandiwadi people be like main fir bhi Gandi ko chahunga 😪.
+  bert-base-multilingual-cased (25): ['J', '##ske', 'bad', 'b', '##ji', 'some', 'gan', '##di', '##wad', '##i', 'people', 'be', 'like', 'main', 'fir', 'b', '##hi', 'Gand', '##i', 'ko', 'cha', '##hung', '##a', '[UNK]', '.']
+  xlm-roberta-base (23): ['▁J', 'ske', '▁bad', '▁b', 'ji', '▁some', '▁gand', 'iwa', 'di', '▁people', '▁be', '▁like', '▁main', '▁fir', '▁bhi', '▁Gand', 'i', '▁ko', '▁cha', 'hunga', '▁', '😪', '.']
+  google/muril-base-cased (22): ['J', '##ske', 'bad', 'b', '##ji', 'some', 'gand', '##i', '##wadi', 'people', 'be', 'like', 'main', 'fir', 'bhi', 'Ga', '##ndi', 'ko', 'chah', '##unga', '[UNK]', '.']
+
+[D] इसके बाद भी सोम गांदीवादी पीपल बी लाइक मैं फिर भी गंदी को चाहूंगा 😪.
+  bert-base-multilingual-cased (30): ['इसके', 'बाद', 'भी', 'स', '##ो', '##म', 'गां', '##दी', '##वादी', 'पी', '##प', '##ल', 'बी', 'ला', '##इ', '##क', 'म', '##ैं', 'फिर', 'भी', 'ग', '##ंद', '##ी', 'को', 'च', '##ाह', '##ू', '##ंगा', '[UNK]', '.']
+  xlm-roberta-base (22): ['▁इसके', '▁बाद', '▁भी', '▁सोम', '▁गा', 'ंदी', 'वादी', '▁पी', 'पल', '▁बी', '▁लाइक', '▁मैं', '▁फिर', '▁भी', '▁ग', 'ंदी', '▁को', '▁चाह', 'ूंगा', '▁', '😪', '.']
+  google/muril-base-cased (20): ['इसके', 'बाद', 'भी', 'सोम', 'गा', '##ंदी', '##वादी', 'पीपल', 'बी', 'लाइक', 'मैं', 'फिर', 'भी', 'गं', '##दी', 'को', 'चाह', '##ूंगा', '[UNK]', '.']
+
+=== id 16867 ===
+
+[A] YE . SUAR KA . BACHAA . LANGDAA . CHOTALA . KHUD . TO . BHOT BADDA . CHOR . HAI . JAIL ME . SADD . MARR . RAHA . HAI .…
+  bert-base-multilingual-cased (60): ['Y', '##E', '.', 'SUA', '##R', 'KA', '.', 'BA', '##CH', '##AA', '.', 'LAN', '##G', '##DA', '##A', '.', 'CH', '##OT', '##AL', '##A', '.', 'K', '##H', '##UD', '.', 'TO', '.', 'B', '##H', '##OT', 'BA', '##D', '##DA', '.', 'CH', '##OR', '.', 'H', '##A', '##I', '.', 'JA', '##IL', 'ME', '.', 'SAD', '##D', '.', 'MA', '##R', '##R', '.', 'RA', '##HA', '.', 'H', '##A', '##I', '.', '[UNK]']
+  xlm-roberta-base (65): ['▁YE', '▁', '.', '▁S', 'UAR', '▁KA', '▁', '.', '▁BA', 'CHA', 'A', '▁', '.', '▁', 'LANG', 'DA', 'A', '▁', '.', '▁CHO', 'TAL', 'A', '▁', '.', '▁KH', 'UD', '▁', '.', '▁TO', '▁', '.', '▁BH', 'OT', '▁BA', 'D', 'DA', '▁', '.', '▁C', 'HOR', '▁', '.', '▁HAI', '▁', '.', '▁JA', 'IL', '▁ME', '▁', '.', '▁SAD', 'D', '▁', '.', '▁MAR', 'R', '▁', '.', '▁R', 'AHA', '▁', '.', '▁HAI', '▁...', '.']
+  google/muril-base-cased (59): ['Y', '##E', '.', 'SU', '##AR', 'KA', '.', 'BA', '##CH', '##AA', '.', 'LAN', '##G', '##DA', '##A', '.', 'CH', '##OT', '##AL', '##A', '.', 'K', '##HU', '##D', '.', 'TO', '.', 'B', '##HO', '##T', 'BA', '##DD', '##A', '.', 'CH', '##OR', '.', 'H', '##AI', '.', 'J', '##AI', '##L', 'ME', '.', 'SA', '##DD', '.', 'MA', '##R', '##R', '.', 'RA', '##HA', '.', 'H', '##AI', '.', '…']
+
+[T3] YE . SUAR KA . BACHAA . LANGDAA . CMOTALA . KHUUD . TO . BHOOT ADDA . CHR . HAI . JAIL ME . SADD . MARRR . RAAH . HAI .…
+  bert-base-multilingual-cased (63): ['Y', '##E', '.', 'SUA', '##R', 'KA', '.', 'BA', '##CH', '##AA', '.', 'LAN', '##G', '##DA', '##A', '.', 'CM', '##OT', '##AL', '##A', '.', 'K', '##H', '##U', '##UD', '.', 'TO', '.', 'B', '##H', '##O', '##OT', 'AD', '##DA', '.', 'CH', '##R', '.', 'H', '##A', '##I', '.', 'JA', '##IL', 'ME', '.', 'SAD', '##D', '.', 'MA', '##R', '##R', '##R', '.', 'RA', '##A', '##H', '.', 'H', '##A', '##I', '.', '[UNK]']
+  xlm-roberta-base (65): ['▁YE', '▁', '.', '▁S', 'UAR', '▁KA', '▁', '.', '▁BA', 'CHA', 'A', '▁', '.', '▁', 'LANG', 'DA', 'A', '▁', '.', '▁CM', 'OTA', 'LA', '▁', '.', '▁K', 'HU', 'UD', '▁', '.', '▁TO', '▁', '.', '▁BH', 'OOT', '▁AD', 'DA', '▁', '.', '▁C', 'HR', '▁', '.', '▁HAI', '▁', '.', '▁JA', 'IL', '▁ME', '▁', '.', '▁SAD', 'D', '▁', '.', '▁MAR', 'RR', '▁', '.', '▁RA', 'AH', '▁', '.', '▁HAI', '▁...', '.']
+  google/muril-base-cased (61): ['Y', '##E', '.', 'SU', '##AR', 'KA', '.', 'BA', '##CH', '##AA', '.', 'LAN', '##G', '##DA', '##A', '.', 'CM', '##OT', '##AL', '##A', '.', 'K', '##HU', '##U', '##D', '.', 'TO', '.', 'B', '##HO', '##OT', 'AD', '##DA', '.', 'CH', '##R', '.', 'H', '##AI', '.', 'J', '##AI', '##L', 'ME', '.', 'SA', '##DD', '.', 'MA', '##R', '##R', '##R', '.', 'RA', '##A', '##H', '.', 'H', '##AI', '.', '…']
+
+[D] ये . सुआर का . बचा . लंगड़ा . चोटाला . खुद . तो . भोट बड्डा . चोर . है . जेल में . सद्द . मार . रहा . है .…
+  bert-base-multilingual-cased (53): ['ये', '.', 'स', '##ु', '##आ', '##र', 'का', '.', 'ब', '##चा', '.', 'ल', '##ंग', '##ड़ा', '.', 'च', '##ोट', '##ाला', '.', 'ख', '##ु', '##द', '.', 'तो', '.', 'भ', '##ोट', 'ब', '##ड', '##्ड', '##ा', '.', 'च', '##ोर', '.', 'है', '.', 'जे', '##ल', 'में', '.', 'स', '##द', '##्द', '.', 'मा', '##र', '.', 'रहा', '.', 'है', '.', '[UNK]']
+  xlm-roberta-base (55): ['▁ये', '▁', '.', '▁सु', 'आर', '▁का', '▁', '.', '▁बचा', '▁', '.', '▁ल', 'ंग', 'ड़ा', '▁', '.', '▁चोट', 'ाला', '▁', '.', '▁खुद', '▁', '.', '▁तो', '▁', '.', '▁भोट', '▁ब', 'ड्ड', 'ा', '▁', '.', '▁चोर', '▁', '.', '▁है', '▁', '.', '▁जेल', '▁में', '▁', '.', '▁स', 'द्द', '▁', '.', '▁मार', '▁', '.', '▁रहा', '▁', '.', '▁है', '▁...', '.']
+  google/muril-base-cased (40): ['ये', '.', 'सु', '##आर', 'का', '.', 'बचा', '.', 'ल', '##ंग', '##ड़ा', '.', 'चोट', '##ाला', '.', 'खुद', '.', 'तो', '.', 'भोट', 'ब', '##ड्डा', '.', 'चोर', '.', 'है', '.', 'जेल', 'में', '.', 'सद्', '##द', '.', 'मार', '.', 'रहा', '.', 'है', '.', '…']
+
+=== id 39016 ===
+
+[A] Yes dear .. Har field mai research work ho Poori dunya research par zor day rahi hay N …
+  bert-base-multilingual-cased (25): ['Yes', 'dea', '##r', '.', '.', 'Har', 'field', 'mai', 'research', 'work', 'ho', 'Poor', '##i', 'dun', '##ya', 'research', 'par', 'zo', '##r', 'day', 'ra', '##hi', 'hay', 'N', '[UNK]']
+  xlm-roberta-base (22): ['▁Yes', '▁de', 'ar', '▁..', '▁Har', '▁field', '▁mai', '▁research', '▁work', '▁ho', '▁Po', 'ori', '▁du', 'nya', '▁research', '▁par', '▁zor', '▁day', '▁rahi', '▁hay', '▁N', '▁...']
+  google/muril-base-cased (23): ['Yes', 'dear', '.', '.', 'Har', 'field', 'mai', 'research', 'work', 'ho', 'Poor', '##i', 'du', '##nya', 'research', 'par', 'z', '##or', 'day', 'rahi', 'hay', 'N', '…']
+
+[T3] Yes dera .. Har field mai research work ho Poori dnuya research par zor day rahi hay N …
+  bert-base-multilingual-cased (25): ['Yes', 'dera', '.', '.', 'Har', 'field', 'mai', 'research', 'work', 'ho', 'Poor', '##i', 'd', '##nu', '##ya', 'research', 'par', 'zo', '##r', 'day', 'ra', '##hi', 'hay', 'N', '[UNK]']
+  xlm-roberta-base (23): ['▁Yes', '▁der', 'a', '▁..', '▁Har', '▁field', '▁mai', '▁research', '▁work', '▁ho', '▁Po', 'ori', '▁d', 'nu', 'ya', '▁research', '▁par', '▁zor', '▁day', '▁rahi', '▁hay', '▁N', '▁...']
+  google/muril-base-cased (25): ['Yes', 'der', '##a', '.', '.', 'Har', 'field', 'mai', 'research', 'work', 'ho', 'Poor', '##i', 'd', '##nu', '##ya', 'research', 'par', 'z', '##or', 'day', 'rahi', 'hay', 'N', '…']
+
+[D] येस डियर .. हर फील्ड मैं रिसर्च वर्क हो पूरी दुन्या रिसर्च पर ज़ोर डे रही है एन …
+  bert-base-multilingual-cased (35): ['ये', '##स', 'ड', '##ियर', '.', '.', 'हर', 'फ', '##ील', '##्ड', 'म', '##ैं', 'र', '##िस', '##र्च', 'व', '##र्क', 'हो', 'पूरी', 'दु', '##न्', '##या', 'र', '##िस', '##र्च', 'पर', 'ज', '##़', '##ोर', 'ड', '##े', 'रही', 'है', 'एन', '[UNK]']
+  xlm-roberta-base (25): ['▁ये', 'स', '▁डि', 'यर', '▁..', '▁हर', '▁फी', 'ल्ड', '▁मैं', '▁रिसर्च', '▁व', 'र्क', '▁हो', '▁पूरी', '▁दु', 'न्या', '▁रिसर्च', '▁पर', '▁ज़', 'ोर', '▁डे', '▁रही', '▁है', '▁एन', '▁...']
+  google/muril-base-cased (23): ['ये', '##स', 'डि', '##यर', '.', '.', 'हर', 'फील्ड', 'मैं', 'रिसर्च', 'वर्क', 'हो', 'पूरी', 'दु', '##न्या', 'रिसर्च', 'पर', 'ज़ोर', 'डे', 'रही', 'है', 'एन', '…']
+

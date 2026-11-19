@@ -1,0 +1,25 @@
+words transliterated: 16673, by source: {'indicxlit': 6749, 'dictionary': 9891, 'context_rule': 32, 'indicxlit_alt': 1}
+share of alphabetic word tokens in D by source:
+   dictionary                                   9891  59.32%
+   context rules                                  32   0.19%
+   IndicXlit alone (top-1)                      6749  40.48%
+   IndicXlit next candidate (top-1 unusable)       1   0.01%
+   letter map                                      0   0.00%
+ALL-CAPS rule: 90 Hin-tagged ALL-CAPS tokens read as English (0.54%); sentences where it is off (>= 50% ALL-CAPS): 18
+tokens that differ from the previous variants_D.csv: 3 -> output/d_changes.tsv {'dictionary': 2, 'context rule': 1}
+    19533  14  US           Hin  उस -> यूएस   | naam sune hai [US] par prtiband lagaya
+    19260  13  US           Hin  उस -> यूएस   | president nhi hai [US] ka 😂🤦
+    18669   7  us           Hin  उस -> अस   | Day . Join [us] TOMORROW at 10
+abbreviation guard (list only): 28 words, 33 tokens (0.20%) -> output/short_unresolved.tsv; with a proposal: 28
+proposed dictionary (xlit_dictionary_proposed.tsv, not merged): 3290 tokens (19.73%); would change 321 (1.93%)
+words changed by the dictionary (dictionary output differs from IndicXlit top-1): 3101
+words whose IndicXlit top-1 was unusable, next candidate used: 1
+   uhh             (unusable) -> उह  (x1)
+letter-map fallbacks: 0
+words that stayed in Roman (excluding hashtags): 0
+words with a stray halant: 0
+1,000 rows, no empty text, no placeholders, hashtags unchanged: OK
+n_changed_words    16.61
+char_edit_dist     70.04
+complete_tweet      0.36
+wrote variants_D.csv: 1000 rows

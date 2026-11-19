@@ -1,0 +1,6 @@
+# Training on Colab (GPU runtime). Install: pip install -q -r scripts_train/requirements_train.txt
+# Same versions as the tokenizer statistics (results/tokenizer_versions.txt).
+transformers==4.57.6
+tokenizers==0.22.2
+# torch, numpy and pandas: Colab's preinstalled versions are used on purpose. Pinning them forces a large
+# reinstall and a runtime restart. Their exact versions are written to results/versions.txt on every run.

@@ -1,0 +1,63 @@
+control set:
+   sentences: 352 of 1000  by op: {'remove': 211, 'insert': 141}
+neg_op    insert  remove  All
+label                        
+negative      56     108  164
+neutral       44      66  110
+positive      41      37   78
+All          141     211  352
+left out of the control set, by rule:
+    528  no negation and no Hin hai/h/hain after a word
+     43  remove: 2+ negations (incl. contractions)
+     28  insert: word before hai is a participle
+     20  insert: sentence already has a short negation spelling
+     17  contraction is the only negation (no remove, no insert)
+      8  insert: word before hai is a postposition
+      3  insert: word before hai is a question word
+      1  insert: hai is within 2 words of '?'
+checks:
+   [OK] word count differs from A by exactly 1 in every row
+   [OK] no other word changed (only the removed / inserted word differs)
+   [OK] every removed word is on the negation list
+   [OK] REMOVE rows have exactly one negation in A (contractions counted)
+   [OK] REMOVE rows have no negation left in NEG
+   [OK] INSERT rows have no negation in A (contractions counted)
+10 random INSERT examples:
+  id 32885 (negative, insert 'nahi' at 19)
+    A    Part =1_ I hate this typ people ke jo insan apne maa baap ko chod kr foreign chle jate h jab bhudape me maa baap k …
+    NEG  Part =1_ I hate this typ people ke jo insan apne maa baap ko chod kr foreign chle jate nahi h jab bhudape me maa baap k …
+  id 22400 (neutral, insert 'nahi' at 15)
+    A    PM himself OBC n President Dalit . Sach me hamare desh ke media par lanat hai jo jodne ki bajay todne ka kam karta hai .
+    NEG  PM himself OBC n President Dalit . Sach me hamare desh ke media par lanat nahi hai jo jodne ki bajay todne ka kam karta hai .
+  id 31585 (negative, insert 'nahi' at 5)
+    A    Ye kiss haram ki aulad h Jisko ye maanta hoga vo sala khud haram ki paidaish h Bhdwe sale Ek baap ki au …
+    NEG  Ye kiss haram ki aulad nahi h Jisko ye maanta hoga vo sala khud haram ki paidaish h Bhdwe sale Ek baap ki au …
+  id 1073 (positive, insert 'nahi' at 14)
+    A    Bahut bahut badhai AAP jaise logo ke Karan hi Modi ji Ko majboori Mili hai . isi tarah se …
+    NEG  Bahut bahut badhai AAP jaise logo ke Karan hi Modi ji Ko majboori Mili nahi hai . isi tarah se …
+  id 30995 (neutral, insert 'nahi' at 7)
+    A    bhai kuch reality bhi to lagna zaruri hai aur e …
+    NEG  bhai kuch reality bhi to lagna zaruri nahi hai aur e …
+  id 7931 (negative, insert 'nahi' at 12)
+    A    sir . Ye ICC ke jyadatar events ENGLAND me hi kyu hote hai .. Jabki ye fix hota hai ki har dusra match …
+    NEG  sir . Ye ICC ke jyadatar events ENGLAND me hi kyu hote nahi hai .. Jabki ye fix hota hai ki har dusra match …
+  id 38461 (neutral, insert 'nahi' at 5)
+    A    RT Sadji kisi ne bheja h apke liye
+    NEG  RT Sadji kisi ne bheja nahi h apke liye
+  id 2944 (negative, insert 'nahi' at 10)
+    A    Han bilkul Karon support shabash .... Bass Woh over attitude hai ... Waise Mubarak aap shart haar rahay hon
+    NEG  Han bilkul Karon support shabash .... Bass Woh over attitude nahi hai ... Waise Mubarak aap shart haar rahay hon
+  id 17882 (positive, insert 'nahi' at 18)
+    A    Dear sir jis tarah se BJP ne JDU aur others partyion ko sirf ek seat offer kiya lagta hai BJP apne s …
+    NEG  Dear sir jis tarah se BJP ne JDU aur others partyion ko sirf ek seat offer kiya lagta nahi hai BJP apne s …
+  id 26485 (positive, insert 'nahi' at 17)
+    A    Agr is baar world Cup india jeet gya to socho inke bache k naam kya ho skta hai Virat kohli dhoni jde …
+    NEG  Agr is baar world Cup india jeet gya to socho inke bache k naam kya ho skta nahi hai Virat kohli dhoni jde …
+typo variants on the same control-set ids (for the matched comparison later):
+         sentences  words_changed  mean_per_sentence  unchanged_sentences
+variant                                                                  
+T1             352            448               1.27                   95
+T2             352           1116               3.17                   11
+T3             352           1776               5.05                    2
+   [OK] validation sample has 40 rows {'remove': 20, 'insert': 20}
+wrote neg_control.csv (352 rows), neg_validation_sample.csv (40 rows), neg_validation_key.csv

@@ -1,0 +1,38 @@
+{
+  "model": "bert-base-multilingual-cased",
+  "revision": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+  "seed": 2026,
+  "pilot": false,
+  "best_epoch": 2,
+  "val_macro_f1": 0.62931389302167,
+  "history": [
+    {
+      "epoch": 1,
+      "val_macro_f1": 0.5633934661345233,
+      "last_train_loss": 0.9437779188156128,
+      "lr": 1.777221526908636e-05
+    },
+    {
+      "epoch": 2,
+      "val_macro_f1": 0.62931389302167,
+      "last_train_loss": 1.3735002279281616,
+      "lr": 1.332916145181477e-05
+    },
+    {
+      "epoch": 3,
+      "val_macro_f1": 0.6257419759365099,
+      "last_train_loss": 2.0428640842437744,
+      "lr": 8.88610763454318e-06
+    },
+    {
+      "epoch": 4,
+      "val_macro_f1": 0.6202573565176893,
+      "last_train_loss": 0.8941301703453064,
+      "lr": 4.44305381727159e-06
+    }
+  ],
+  "train_rows": 11335,
+  "device": "cuda",
+  "peak_gpu_mem_mb": 3910,
+  "seconds": 206
+}

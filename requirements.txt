@@ -1,0 +1,5 @@
+# Scripts 1-2 (build_dataset.py, build_variants.py): Python 3.11+, standard library + pandas
+pandas>=2.2
+# export_excel.py only (viewing the data in Excel)
+openpyxl>=3.1
+# Script 3 (transliterate_devanagari.py) needs its own Python 3.10 environment: see requirements-xlit.txt
